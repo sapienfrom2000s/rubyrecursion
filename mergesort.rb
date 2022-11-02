@@ -19,4 +19,6 @@ def merge(array)
     return newarray+leftarray+rightarray
 end
 
+//use first instead of [0] and shift instead of delete_at(0) plus maybe turnery can be used
+
 p merge([8,7,3,5,34,3,2,4,6,2])
